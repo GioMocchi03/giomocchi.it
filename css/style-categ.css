@@ -1,0 +1,83 @@
+.img1{
+    background-image: url(/img/Draw/3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: block;
+  }
+  
+  .img2{
+    background-image: url(/img/photopersonali/primorullino/12.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: block;
+  }
+  
+  .img3{
+    background-image: url(/img/illupersonale/Illustrazione\ Montagne.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: block;
+  }
+  
+  .img4{
+    background-image: url(/img/masterofph/11.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: block;
+  }
+  
+  .img5{
+    background-image: url(/img/Manifesti/Beyond\ the\ streets\ fin.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: block;
+  }
+  
+  .img6{
+    background-image: url(/img/logopersonale/Personal\ logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+    display: block;
+  }
+  
+  .img7{
+    background-image: url(/img/postpordpersonale/Neon\ text.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+    display: block;
+  }
+  
+  .img8{
+    background-image: url(/img/Font/Specimen_Tavola\ disegno\ 1\ copia\ 6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: block;
+  }
+
+  .img9{
+    background-image: url(/img/giovanileoni/Fundraising\ Prize.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: block;
+    background-position: left;
+  }
+
+  .img10{
+    background-image: url(/img/jacquard/naviglio1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: block;
+    background-position: left;
+  }

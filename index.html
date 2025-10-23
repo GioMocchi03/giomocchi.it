@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CG0SV1YRGZ"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CG0SV1YRGZ');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <meta name="author" content="Gio Mocchi">
+    <meta name="description" content="It contains my best projects and some information about me">
+    <meta name="keywords" content="gio, gio mocchi, design, graphic designer, junior visual designer, portfolio, project">
+    <link href="http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link href="img/Personal logo.webp" type="image/png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/splide.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style-work-home.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#header").load("components/section-header/header.html", function() {
+                updateNavbarLinks();
+            });
+        });
+
+        function updateNavbarLinks() {
+            const baseUrl = window.location.origin; // Ottieni l'URL di base del sito
+            $("#navbar a, #menùdsk a").each(function() {
+                let link = $(this).attr("href");
+                if (!link.startsWith("http") && !link.startsWith("#")) {
+                    // Se il link non è un URL assoluto o un ancoraggio, aggiungi l'URL di base
+                    $(this).attr("href", baseUrl + "/" + link);
+                }
+            });
+        }
+    </script>
+    <title>Gio Mocchi</title>
+</head>
+
+
+<body>
+    <div id="header"></div>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="gio">GIO</h1>
+                    <p id="mocchi">MOCCHI</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 d-flex flex-row-reverse">
+                    <img id="gioimg" src="img/Gio2.webp" alt="Gio's Photo">
+                    <img id="gioimg2" src="img//Gio1.webp" alt="Gio's Photo">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <p id="ttx">I AM A 21 YEAR OLD BOY, I LIVE IN A SMALL TOWN IN THE PROVINCE OF COMO, I LIKE EVERYTHING THAT IS INNOVATIVE</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mgc">
+            <div class="row mgtr">
+                <div class="col-4 offset-4">
+                    <p class="dicitura">/00-1/</p>
+                </div>
+            </div>
+            <div class="row mgtr">
+                <div class="col-8 d-inline-flex offset-4 justify-content-between">
+                    <p id="anc1" class="title">WORK</p>
+                    <img class="arrow-d" src="img/arrow-d.svg" alt="">
+                </div>
+            </div>
+            <div class="row mgtr">
+                <div class="col-8 offset-4">
+                    <p class="paragraph">SOME WORK DONE DURING MY STUDIES AND SOME NOT</p>
+                    <a href="categ.html"><button class="btnn"><img id="arrow-l" src="img/arrow-l.png" alt="">VIEW ALL</button></a>
+                </div>
+            </div>
+        </div>
+
+        <section id="mgttt" class="splide">
+            <div class="splide__arrows splide__arrows--ltr">
+  <button
+    class="splide__arrow grbg splide__arrow--prev"
+    type="button"
+    aria-label="Previous slide"
+    aria-controls="splide01-track"
+  >
+    <svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:#F2F3F5;}
+        </style>
+        <polygon class="st0" points="18.3,2.5 32.1,17.8 0,17.8 0,22.2 32.1,22.2 18.3,37.5 21.9,40 40,20 21.9,0 "/>
+    </svg>
+  </button>
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="splide__slide__container">
+                    <div class="container-fluid">
+                    <div class="row mgtr">
+                        <hr>
+                        <div class="col-8">
+                            <p class="dicitura2">20/04/2022</p>
+                            <p class="subtitle2">CONTEMPORARY POSTERS</p>
+                            <p class="dicitura2">(DESC)</p>
+                            <p class="paragraph">A SERIES OF POSTERS MADE <br> (FOR EDUCATIONAL PURPOSES) FOR <br> THE MODERN AND CONTEMPORARY ART COURSE</p>
+                            <p class="dicitura">(SOFTWARE)</p>
+                            <p class="dicitura2">ILLUSTRATOR/PHOTOSHOP/INDESIGN</p>
+                            <a href="poster/manifesti.html"><button class="btnn"><img class="arrow-2" src="img/arrow-l.png" alt="">EXPLORE MORE</button></a>
+                        </div>
+                        <div class="col-4 work1">
+    
+                        </div>
+                    </div>
+                </div>
+            
+                 </li>
+                <li class="splide__slide">
+                    <div class="splide__slide__container">
+                    <div class="container-fluid">
+                        <div class="row mgtr">
+                            <hr>
+                            <div class="col-8">
+                                <p class="dicitura2">2021/2022</p>
+                                <p class="subtitle2">PERSONAL</p>
+                                <p class="dicitura2">(DESC)</p>
+                                <p class="paragraph">PROJECTS RELATED TO <br> 
+                                    MY PERSONAL LOGO</p>
+                                <p class="dicitura">(SOFTWARE)</p>
+                                <p class="dicitura2">ILLUSTRATOR/PHOTOSHOP/BLENDER</p>
+                                <a href="logo/logopersonale.html"><button class="btnn"><img class="arrow-2" src="img/arrow-l.png" alt="">EXPLORE MORE</button></a>
+                            </div>
+                            <div class="col-4 work2">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="splide__slide__container">
+                    <div class="container-fluid">
+                        <div class="row mgtr">
+                            <hr>
+                            <div class="col-8">
+                                <p class="dicitura2">2021/2022</p>
+                                <p class="subtitle2">FIRST ROLL</p>
+                                <p class="dicitura2">(DESC)</p>
+                                <p class="paragraph">AFIRST ROLL MADE WITH AN <br>
+                                    ILFORD FP4 PLUS FILM AT <br>
+                                    ISO 125, IN BLACK AND WHITE</p>
+                                    <p class="dicitura">(CAMERA/LENS)</p>
+                                    <p class="dicitura2">CANON EOS 33/CANON ULTRASONIC 50MM F-1.4</p>
+                                <a href="photo/primorullino.html"><button class="btnn"><img class="arrow-2" src="img/arrow-l.png" alt="">EXPLORE MORE</button></a>
+                            </div>
+                            <div class="col-4 work3">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="splide__slide__container">
+                    <div class="container-fluid">
+                        <div class="row mgtr">
+                            <hr>
+                            <div class="col-8">
+                                <p class="dicitura2">03/04/2022</p>
+                                <p class="subtitle2">YOUNG LIONS</p>
+                                <p class="dicitura2">(DESC)</p>
+                                <p class="paragraph">PROJECT REALIZED IN TEAM WITH,<br>
+                                    TEO ROVATTI, FOR THE CREATIVE <br>
+                                    COMPETITION PROMOTED BY ADCI...</p>
+                                <p class="dicitura">(SOFTWARE)</p>
+                                <p class="dicitura2">PHOTOSHOP/ILLUSTRATOR/FIGMA/BLENDER</p>
+                                <a href="identity/giovanileoni.html"><button class="btnn"><img class="arrow-2" src="img/arrow-l.png" alt="">EXPLORE MORE</button></a>
+                            </div>
+                            <div class="col-4 work4">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="splide__slide__container">
+                    <div class="container-fluid">
+                        <div class="row mgtr">
+                            <hr>
+                            <div class="col-8">
+                                <p class="dicitura2">2017-2022</p>
+                                <p class="subtitle2">DRAW</p>
+                                <p class="dicitura2">(DESC)</p>
+                                <p class="paragraph">SOME OF MY DRAWINGS</p>
+                                <p class="dicitura">(SOFTWARE)</p>
+                                <p class="dicitura2">MY HAND</p>
+                                <a href="draw/draw.html"><button class="btnn"><img class="arrow-2" src="img/arrow-l.png" alt="">EXPLORE MORE</button></a>
+                            </div>
+                            <div class="col-4 work5">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </li>
+
+              </ul>
+        </div>
+        <button
+    class="splide__arrow grbg splide__arrow--next"
+    type="button"
+    aria-label="Next slide"
+    aria-controls="splide01-track"
+  >
+    <svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:#F2F3F5;}
+        </style>
+        <polygon class="st0" points="18.3,2.5 32.1,17.8 0,17.8 0,22.2 32.1,22.2 18.3,37.5 21.9,40 40,20 21.9,0 "/>
+    </svg>
+  </button>
+</div>
+     </section>
+        
+            
+
+
+
+        <div class="container-fluid mgc">
+            <div class="row mgtr">
+                <div class="col-4 offset-4">
+                    <p class="dicitura">/00-2/</p>
+                </div>
+            </div>
+            <div class="row mgtr">
+                <div class="col-8 d-inline-flex offset-4 justify-content-between">
+                    <p id="anc2" class="title">ABOUT</p>
+                    <img class="arrow-d" src="img/arrow-d.svg" alt="">
+                </div>
+            </div>
+            <div class="row mgtr">
+                <div class="col-8 offset-4">
+                    <p class="paragraph">GRAPHIC DESIGN, IS A WORLD OF CONTINUOUS INNOVATION AND CREATIVITY, WHERE I
+                        THRIVE. THE THING I LOVE MOST IS THE FREEDOM, WHICH ALLOWS ME TO LIVE BETTER AND FACE NEW
+                        OBSTACLES WITH POSITIVITY, AND BE CREATIVE.</p>
+                    <a href="file/CV 2025 - IT.pdf" download><button class="btnn"><img id="arrow-l" src="img/arrow-l.png" alt="">MY CV</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mgc">
+            <div class="row mgtr">
+                <div class="col-4 offset-4">
+                    <p class="dicitura">/00-3/</p>
+                </div>
+            </div>
+            <div class="row mgtr">
+                <div class="col-8 d-inline-flex offset-4 justify-content-between">
+                    <p id="anc3" class="title">SKILLS</p>
+                    <img class="arrow-d" src="img/arrow-d.svg" alt="">
+                </div>
+            </div>
+            <div class="d-flex flex-row mgtr">
+                <div class="col-4 offset-4 ps-2">
+                    <p class="paragraph">PHOTOSHOP</p>
+                    <div class="sqin">
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-v"></div>
+                    </div>
+                </div>
+                <div class="col-4 ps-2">
+                    <p class="paragraph">ILLUSTRATOR</p>
+                    <div class="sqin">
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-v"></div>
+                        <div class="square-v"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row mgtr">
+                <div class="col-4 offset-4 ps-2">
+                    <p class="paragraph">INDESIGN</p>
+                    <div class="sqin">
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-v"></div>
+                    </div>
+                </div>
+                <div class="col-4 ps-2">
+                    <p class="paragraph">HTML</p>
+                    <div class="sqin">
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-v"></div>
+                        <div class="square-v"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row mgtr">
+                <div class="col-4 offset-4 ps-2">
+                    <p class="paragraph">AFTERE EFFECT</p>
+                    <div class="sqin">
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-v"></div>
+                        <div class="square-v"></div>
+                    </div>
+                </div>
+                <div class="col-4 ps-2">
+                    <p class="paragraph">CSS</p>
+                    <div class="sqin">
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-v"></div>
+                        <div class="square-v"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row mgtr">
+                <div class="col-4 offset-4 ps-2">
+                    <p class="paragraph">FIGMA</p>
+                    <div class="sqin">
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-v"></div>
+                    </div>
+                </div>
+                <div class="col-4 ps-2">
+                    <p class="paragraph">BLENDER</p>
+                    <div class="sqin">
+                        <div class="square-p"></div>
+                        <div class="square-p"></div>
+                        <div class="square-v"></div>
+                        <div class="square-v"></div>
+                        <div class="square-v"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mgc">
+            <div class="row mgtr">
+                <div class="col-4 offset-4">
+                    <p class="dicitura">/00-4/</p>
+                </div>
+            </div>
+            <div class="row mgtr">
+                <div class="col-8 d-inline-flex offset-4 justify-content-between">
+                    <p id="anc4" class="title">CONTACT</p>
+                    <img class="arrow-d" src="img/arrow-d.svg" alt="">
+                </div>
+            </div>
+            <div class="row mgtr">
+                <div class="col-8 offset-4">
+                    <p class="paragraph">IF YOU WANT TO CONTACT. BELOW THERE ARE A COLLECTION OF WAYS TO DO SO.</p>
+                </div>
+            </div>
+            <div class="row mgtr">
+                <div id="mrgnbt" class="col-12 d-flex flex-wrap justify-content-center">
+                    <div class="contact-box">
+                        <p class="dicitura">00-1</p>
+                        <p class="subtitle3">EMAIL</p>
+                        <p class="paragraph">WRITE ME HERE FOR FORMAL THINGS, OR WORK REQUESTS.</p>
+                        <button onclick="location.href='mailto:gio.mocchi03@gmail.com';" class="btnn"><img id="arrow-l" src="img/arrow-l.png" alt="">CONTACT ME</button>
+                    </div>
+                    <div class="contact-box">
+                        <p class="dicitura">00-2</p>
+                        <p class="subtitle3">TEL</p>
+                        <p class="paragraph">CALL ME ONLY FOR WORK-RELATED THINGS.</p>
+                        <button onclick="location.href='tel:+393441863125';" class="btnn"><img id="arrow-l" src="img/arrow-l.png" alt="">CONTACT ME</button>
+                    </div>
+                    <div class="contact-box">
+                        <p class="dicitura">00-3</p>
+                        <p class="subtitle3">INSTA</p>
+                        <p class="paragraph">YOU CAN CHECK OUT MORE OF MY WORK ON MY INSTAGRAM PROFILE.</p>
+                        <a href="https://www.instagram.com/gio.mocchi/"><button class="btnn lkkw"><img id="arrow-l" src="img/arrow-l.png" alt="">GO TO</button></a>
+                    </div>
+                    <div class="contact-box">
+                        <p class="dicitura">00-4</p>
+                        <p class="subtitle3">BEHANCE</p>
+                        <p class="paragraph">YOU CAN FIND MY BEST WORK THERE, AND NOT ONLY THAT.</p>
+                        <a href="https://www.behance.net/giomocchi/projects"><button class="btnn lkkw"><img id="arrow-l" src="img/arrow-l.png" alt="">GO TO</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </main>
+
+    <footer class="gtfo">
+        <p class="paragraph-ft">DESIGNED BY</p>
+
+        <p class="paragraph-ft">&emsp; GIO MOCCHI</p>
+    </footer>
+
+
+
+
+</body>
+
+
+<script src="js/gsap.min.js"></script>
+<script src="scripts.js"></script>
+<script type="text/javascript" src="js/splide.min.js"></script>
+
+<script type="text/javascript">
+    function openNav() {
+        document.getElementById("container-mn").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("container-mn").style.width = "0%";
+    }
+
+    var splide = new Splide( '.splide', {
+  direction: 'ttb',
+  height   : '30rem',
+  wheel    : true,
+  snap   : true,
+} );
+
+splide.mount();
+</script>
+
+
+
+
+
+
+
+
+</html>

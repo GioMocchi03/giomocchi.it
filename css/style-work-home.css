@@ -1,0 +1,45 @@
+.work1{
+    background-image: url(/img/Manifesti/Alexander\ Calder\ fin.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+  }
+  
+  .work2{
+    
+    background-image: url(/img/logopersonale/Personal\ logo.webp);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  .work3{
+    
+    background-image: url(/img/photopersonali/primorullino/12.webp);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  .work4{
+    
+    background-image: url(/img/giovanileoni/Fundraising\ Prize.webp);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 500px;
+  }
+  
+  .work5{
+    background-image: url(/img/Draw/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+  }

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CG0SV1YRGZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CG0SV1YRGZ');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <meta name="author" content="Gio Mocchi">
+    <meta name="description" content="It contains my best projects and some information about me">
+    <meta name="keywords" content="gio, gio mocchi, design, graphic designer, junior visual designer, portfolio, project">
+    <link href="http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link href="img/Personal logo.webp" type="image/png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style-categ.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#header").load("components/section-header/header.html", function() {
+                updateNavbarLinks();
+            });
+        });
+
+        function updateNavbarLinks() {
+            const baseUrl = window.location.origin; // Ottieni l'URL di base del sito
+            $("#navbar a, #menùdsk a").each(function() {
+                let link = $(this).attr("href");
+                if (!link.startsWith("http") && !link.startsWith("#")) {
+                    // Se il link non è un URL assoluto o un ancoraggio, aggiungi l'URL di base
+                    $(this).attr("href", baseUrl + "/" + link);
+                }
+            });
+        }
+    </script>
+    <title>Gio Mocchi</title>
+</head>
+
+
+<body>
+    <div id="header"></div>
+
+    <main>
+        <div class="container-fluid mgc">
+            <div class="row">
+                <div class="col-4 offset-4">
+                    <p class="dicitura">/00-1/</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 d-inline-flex offset-4 justify-content-between">
+                    <p class="title">WORK</p>
+                    <img class="arrow-d" src="img/arrow-d.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mgc">
+         
+            <div class="flxx">
+
+                <div class="line mg-r">
+                    <div id="card">
+                    <p class="dicitura3">/01/</p>
+                    <p class="dicitura3">ARTWORK</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="artwork/artwork.html" class="img10"></a>
+                </div>
+
+                <div class="line mg-r">
+                    <div id="card">
+                    <p class="dicitura3">/02/</p>
+                    <p class="dicitura3">DRAW</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="draw/draw.html" class="img1"></a>
+                </div>
+            
+                <div class="line">
+                    <div id="card">
+                    <p class="dicitura3">/03/</p>
+                    <p class="dicitura3">PHOTOGRAPHY</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="photo/photo.html" class="img2"></a>
+                </div>
+
+                <div class="line mg-r">
+                    <div id="card">
+                    <p class="dicitura3">/04/</p>
+                    <p class="dicitura3">ILLUSTRATION</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="illustration/illustrazione.html" class="img3"></a>
+                </div>
+                <div class="line">
+                    <div id="card">
+                    <p class="dicitura3">/05/</p>
+                    <p class="dicitura3">LAYOUT</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="layout/layout.html" class="img4"></a>
+                </div>
+            </div>
+
+            <div class="flxx">
+                <div class="line mg-r">
+                    <div id="card">
+                    <p class="dicitura3">/06/</p>
+                    <p class="dicitura3">POSTER</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="poster/poster.html" class="img5"></a>
+                </div>
+                <div class="line ">
+                    <div id="card">
+                    <p class="dicitura3">/07/</p>
+                    <p class="dicitura3">LOGO</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="logo/logo.html" class="img6"></a>
+                </div>
+
+                <div class="line mg-r">
+                    <div id="card">
+                    <p class="dicitura3">/08/</p>
+                    <p class="dicitura3">POST-PROD</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="postprod/postproduzione.html" class="img7"></a>
+                </div>
+                <div class="line">
+                    <div id="card">
+                    <p class="dicitura3">/09/</p>
+                    <p class="dicitura3">FONT</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="font/font.html" class="img8"></a>
+                </div>
+            </div>
+
+            <div class="flxx">
+                <div class="line mg-r">
+                    <div id="card">
+                    <p class="dicitura3">/10/</p>
+                    <p class="dicitura3">IDENTITY</p>
+                    <p class="dicitura3">xx.xx.xxxx</p>
+                    </div>
+                    <a href="identity/identity.html" class="img9"></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </main>
+
+    <footer class="gtfo">
+        <p class="paragraph-ft">DESIGNED BY</p>
+        
+        <p class="paragraph-ft">&emsp; GIO MOCCHI</p>
+    </footer>
+
+
+
+</body>
+
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/parallax.min.js"></script>
+<script type="text/javascript">
+    function openNav() {
+        document.getElementById("container-mn").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("container-mn").style.width = "0%";
+    }
+</script>
+
+
+</html>

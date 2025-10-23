@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Gio Mocchi">
+    <meta name="description" content="It contains my best projects and some information about me">
+    <meta name="keywords"
+        content="Gio, Gio Mocchi, Design, Graphic Designer, junior Visual Designer, Portfolio, Project">
+    <link href="http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link href="/img/Personal logo.png" type="image/png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style-work-big.css">
+    <link rel="stylesheet" type="text/css" href="/css/style-work.css">
+    <link rel="stylesheet" type="text/css" href="/css/splide.min.css">
+    <title>Gio Mocchi - Jacquard With Giacomo</title>
+</head>
+
+<body>
+    
+    <div id="project-template">
+
+        <p class="paragraph">ALL PAINTINGS ARE ON SALE AND CAN BE PURCHASED <br> ON <a href="https://giacomogentilcore.eu/collezione-jacquard" id="linkjk" target="”_blank”">GIACOMO GENTILCORE'S</a> WEBSITE</p>
+    </div>
+   
+
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+           
+            $("#project-template").load("/templates/project-template.html", function() {
+                const projectId = "jacquardwithgiacomo"; // Cambia l'ID del progetto in base alla pagina
+                loadProjectDetails(projectId);
+            });
+        });
+    </script>
+    <script type="text/javascript" src="/js/project-details.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!-- draw.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Gio Mocchi">
+    <meta name="description" content="It contains my best projects and some information about me">
+    <meta name="keywords"
+        content="Gio, Gio Mocchi, Design, Graphic Designer, junior Visual Designer, Portfolio, Project">
+    <link href="http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link href="/img/Personal logo.png" type="image/png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/splide.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style-work.css">
+    <title>Gio Mocchi - Draw</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="category-template"></div>
+    
+
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#category-template").load("/templates/category-template.html", function() {
+                const category = "DRAW"; // Cambia la categoria in base alla pagina
+                generateProjects(category);
+            });
+        });
+    </script>
+    <script type="text/javascript" src="/js/project-category.js"></script>
+</body>
+
+</html>

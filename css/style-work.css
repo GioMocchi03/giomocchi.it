@@ -1,0 +1,178 @@
+
+/*DRAW*/
+  #draw1{
+    height: 90.1vh;
+    background-image: url(/img/Draw/2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+  #draw2{
+    height: 90.1vh;
+    background-image: url(/img/Draw/Mohole/IMG_20220302_145935.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+  #draw3{
+    height: 90.1vh;
+    background-image: url(/img/work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+
+  /*POSTER*/
+  #poster1{
+    height: 90.1vh;
+    background-image: url(/img/Manifesti/Beyond\ the\ streets\ fin.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+  #poster2{
+    height: 90.1vh;
+    background-image: url(/img/work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+  #poster3{
+    height: 90.1vh;
+    background-image: url(/img/work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+
+  #print4all{
+    height: 90.1vh;
+    background-image: url(/img/print4all/Futuro-.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+
+  /*LAYOUT*/
+  
+  #lay1{
+    height: 90.1vh;
+    background-image: url(/img/masterofph/Poster\ Copertine\ fotografi.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+
+  #lay2{
+    height: 90.1vh;
+    background-image: url(/img/work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+
+  #lay3{
+    height: 90.1vh;
+    background-image: url(/img/work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+
+  /*FONT*/
+
+  #font1{
+    height: 90.1vh;
+    background-image: url(/img//Font/Specimen_Tavola\ disegno\ 1\ copia\ 6.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+  }
+  /*POST-PRODUZIONE*/
+  #post1{
+    height: 90.1vh;
+    background-image: url(/img/postpordpersonale/Jump\ Portal.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+  }
+  #post2{
+    height: 90.1vh;
+    background-image: url(/img/postprodpiatti/Piatto\ 1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+  }
+  /*ILLUSTRATION*/
+  #illu1{
+    height: 90.1vh;
+    background-image: url(/img/illupersonale/Illustrazione\ Montagne.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+
+  }
+
+  #illu2{
+    height: 90.1vh;
+    background-image: url(/img/icone/Icone\ Cibo\ e\ Bevande_Pagina_1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+    
+  }
+   /*LOGO*/
+   #logo1{
+    height: 90.1vh;
+    background-image: url(/img/logopersonale/Personal\ logo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+
+   }
+   /*PHOTOGRAPHY*/
+   #photo1{
+    height: 90.1vh;
+    background-image: url(/img/photopersonali/primorullino/12.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+   }
+    /*IDENTITY*/
+  
+  #identity1{
+    height: 90.1vh;
+    background-image: url(/img/giovanileoni/Fundraising\ Prize.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+
+  }
+
+  /*ARTWORK*/
+#jacqu1{
+  height: 90.1vh;
+    background-image: url(/img/jacquard/naviglio1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+
+}
+
+#jacqu2{
+  height: 90.1vh;
+    background-image: url(/img/jacquard/collaborazione\ giacomo\ gentilcore.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+    background-position: center;
+
+}

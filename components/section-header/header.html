@@ -1,0 +1,93 @@
+<!-- header.html -->
+<header>
+    <a href="../index.html"><img id="logo" src="../img/Personal logo.webp" alt="personal logo"></a>
+    <nav class="navmb">
+        <span style="cursor:pointer" onclick="openNav()"> <img id="logom" src="../img/menù.svg" alt="menù logo"></span>
+        <div id="container-mn">
+            <span id="closeov" style="cursor:pointer" onclick="closeNav()">
+                <p class="subtitle">CLOSE</p>
+            </span>
+            <ul id="overlay">
+                <li class="limn">
+                    <a style="text-decoration: none;" href="index.html">
+                        <p class="tmenù">HOME</p>
+                    </a>
+                    <img class="arrow-d" src="../img/arrow-d.svg" alt=""></li>
+                <li class="limn">
+                    <a style="text-decoration: none;" href="categ.html">
+                        <span id="closeov" style="cursor:pointer" onclick="closeNav()">
+                            <p class="tmenù">WORK</p>
+                        </span>
+                    </a>
+                    <img class="arrow-d" src="../img/arrow-d.svg" alt=""></li>
+                <li class="limn">
+                    <a style="text-decoration: none;" href="index.html#anc2">
+                        <span id="closeov" style="cursor:pointer" onclick="closeNav()">
+                            <p class="tmenù">ABOUT</p>
+                        </span>
+                    </a>
+                    <img class="arrow-d" src="../img/arrow-d.svg" alt=""></li>
+                <li class="limn">
+                    <a style="text-decoration: none;" href="index.html#anc3">
+                        <span id="closeov" style="cursor:pointer" onclick="closeNav()">
+                            <p class="tmenù">SKILLS</p>
+                        </span>
+                    </a>
+                    <img class="arrow-d" src="../img/arrow-d.svg" alt=""></li>
+                <li class="limn">
+                    <a style="text-decoration: none;" href="index.html#anc4">
+                        <span id="closeov" style="cursor:pointer" onclick="closeNav()">
+                            <p class="tmenù">CONTACT</p>
+                        </span>
+                    </a>
+                    <img class="arrow-d" src="../img/arrow-d.svg" alt=""></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navdsk">
+        <ul id="menùdsk" style="list-style: none;">
+            <li>
+                <a style="text-decoration: none;" href="index.html">
+                    <p class="tmenù2">HOME</p>
+                </a>
+            <li>
+                <a style="text-decoration: none;" href="categ.html">
+                    <p class="tmenù2">WORK</p>
+                </a>
+            </li>
+            <li>
+                <a style="text-decoration: none;" href="index.html#anc2">
+                    <p class="tmenù2">ABOUT</p>
+                </a>
+            </li>
+            <li>
+                <a style="text-decoration: none;" href="index.html#anc3">
+                    <p class="tmenù2">SKILLS</p>
+                </a>
+            </li>
+            <li>
+                <a style="text-decoration: none;" href="index.html#anc4">
+                    <p class="tmenù2">CONTACT</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script>
+    // Funzione per aggiornare i link della navbar
+    function updateNavbarLinks() {
+        const baseUrl = window.location.origin; // Ottieni l'URL di base del sito
+        $("#navbar a, #menùdsk a").each(function() {
+            let link = $(this).attr("href");
+            if (!link.startsWith("http") && !link.startsWith("#")) {
+                // Se il link non è un URL assoluto o un ancoraggio, aggiungi l'URL di base
+                $(this).attr("href", baseUrl + "/" + link);
+            }
+        });
+    }
+
+    // Aggiorna i link della navbar quando il documento è pronto
+    $(document).ready(updateNavbarLinks);
+</script>

@@ -1,0 +1,129 @@
+<!-- templates/category-template.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Gio Mocchi">
+    <meta name="description" content="It contains my best projects and some information about me">
+    <meta name="keywords"
+        content="Gio, Gio Mocchi, Design, Graphic Designer, junior Visual Designer, Portfolio, Project">
+    <link href="http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link href="/img/Personal logo.png" type="image/png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/splide.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style-work.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#header").load("/components/section-header/header.html", function() {
+                updateNavbarLinks();
+            });
+        });
+
+        function updateNavbarLinks() {
+            const baseUrl = window.location.origin; // Ottieni l'URL di base del sito
+            $("#navbar a, #menùdsk a").each(function() {
+                let link = $(this).attr("href");
+                if (!link.startsWith("http") && !link.startsWith("#")) {
+                    // Se il link non è un URL assoluto o un ancoraggio, aggiungi l'URL di base
+                    $(this).attr("href", baseUrl + "/" + link);
+                }
+            });
+        }
+    </script>
+    <title>Gio Mocchi</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <main>
+        <section class="splide">
+            <div class="splide__arrows splide__arrows--ltr">
+                <button
+                class="splide__arrow mgtt grbg splide__arrow--prev" 
+                type="button" 
+                aria-label="Previous slide"
+                aria-controls="splide01-track"
+                >
+                    <svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:#F2F3F5;}
+                        </style>
+                        <polygon class="st0" points="18.3,2.5 32.1,17.8 0,17.8 0,22.2 32.1,22.2 18.3,37.5 21.9,40 40,20 21.9,0 "/>
+                    </svg>
+                </button>
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <!-- Qui verranno inseriti i progetti dinamici -->
+                    </ul>
+                </div>
+                <button
+                class="splide__arrow mgtt grbg splide__arrow--next" 
+                type="button" 
+                aria-label="Next slide"
+                aria-controls="splide01-track"
+                >
+                    <svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:#F2F3F5;}
+                        </style>
+                        <polygon class="st0" points="18.3,2.5 32.1,17.8 0,17.8 0,22.2 32.1,22.2 18.3,37.5 21.9,40 40,20 21.9,0 "/>
+                    </svg>
+                </button>
+            </div>
+            <ul class="splide__pagination"></ul>
+        </section>
+    </main>
+
+    <footer id="ftwk">
+        <p class="paragraph-ft">DESIGNED BY</p>
+        <p class="paragraph-ft">&emsp; GIO MOCCHI</p>
+    </footer>
+
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/parallax.min.js"></script>
+    <script type="text/javascript" src="/js/splide.min.js"></script>
+    <script type="text/javascript" src="/js/projects.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#header").load("components/section-header/header.html", function() {
+                updateNavbarLinks();
+            });
+
+            var splide = new Splide('.splide', {
+                height: '42rem',
+                wheel: true,
+                snap: true,
+            });
+
+            splide.mount();
+        });
+
+        function updateNavbarLinks() {
+            const baseUrl = window.location.origin; // Ottieni l'URL di base del sito
+            $("#navbar a, #menùdsk a").each(function() {
+                let link = $(this).attr("href");
+                if (!link.startsWith("http") && !link.startsWith("#")) {
+                    // Se il link non è un URL assoluto o un ancoraggio, aggiungi l'URL di base
+                    $(this).attr("href", baseUrl + "/" + link);
+                }
+            });
+        }
+
+        function openNav() {
+            document.getElementById("container-mn").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("container-mn").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>
