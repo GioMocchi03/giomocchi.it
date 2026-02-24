@@ -33,7 +33,7 @@ const projects = [
             "/img/jacquard/creature from puddle jacquard.webp"
         ],
         text: "ALL PAINTINGS ARE ON SALE AND CAN BE PURCHASED <br> ON ",
-        link: "https://giacomogentilcore.eu/collezione-jacquard",
+        link: "https://gentilcoregiacomo.eu/collezione-jacquard",
         texts:"GIACOMO GENTILCORE'S",
         textss:" WEBSITE.",
     },
